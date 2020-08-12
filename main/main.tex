@@ -206,7 +206,6 @@
 	\end{eqnarray}
 	
 	Fazendo as verificações, temos
-	
 	\begin{eqnarray}
 		\dfrac{\partial f(x,y)}{\partial x}&=&3x^{2}y^{3}+y^{4}\\
 		\dfrac{\partial f(x,y)}{\partial y}&=&3y^{2}x^{3}+4xy^{3}+y^{4}
@@ -236,7 +235,67 @@
 		\caption{Vista padrão}
 	\end{figure}
 	
+	\subsection{Exercício 26}
 	
+	Campo vetorial de quadrados inversos
+	\begin{equation}
+		\force (x,y)=\dfrac{-y\vvi+x\vvj}{x^{2}+y^{2}}
+	\end{equation}
+	
+	O valor obtido na integral curvilínea 
+	\begin{equation}
+		\int\force\,d\textbf{r}
+	\end{equation}
+	
+	pode ser interpretado como o trabalho da partícula ao longo do campo vetorial apresentado. Porém, nesse caso é interessante aplicar a parametrização já que a trajetória descrita é a de uma circunferência. Sendo assim, a posição de uma partícula expressa como função do deslocamento angular pode ser dado por
+	\begin{equation}
+		\textbf{r}(t)=\cos t\,\vvi+\sin t\,\vvj
+	\end{equation}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{images/g26}
+		\label{fig:g26}
+	\end{figure}
+
+	Para obter o elemento $d\textbf{r}$ da integral curvilínea, basta derivar a função da posição, logo
+	\begin{eqnarray}
+		\dfrac{d\textbf{r}}{dt}&=&-\sin t\,\vvi+\cos t\,\vvj\\
+		d\textbf{r}&=&-\sin t\,dt\,\vvi+\cos t\,dt\,\vvj
+	\end{eqnarray}
+	
+	Após substituir as componentes de \textbf{r} em \force, vem
+	\begin{eqnarray}
+		\force(t)&=&\dfrac{-\sin t\,\vvi+\cos t\,\vvj}{\cos^{2}t+\sin^{2}t}\Rightarrow\\
+		\force(t)&=&-\sin t\,\vvi+\cos t\,\vvj
+	\end{eqnarray}
+	
+	A integração no arco superior com $0\leq t\leq\pi$ será
+	\begin{eqnarray}
+		W&=&\int\limits_{0}^{\pi}\force(t)\,d\textbf{r}(t)\\
+		&=&\int\limits_{0}^{\pi}\sin^{2}t\,dt+\cos^{2}t\,dt\\
+		&=&\int\limits_{0}^{\pi}dt\\
+		t\,\bigg|_{0}^{\pi}&=&\pi
+	\end{eqnarray}
+	
+	Se tratarmos o mesmo início e fim da trajetória anterior mas pelo arco de baixo, teremos $0\leq t\leq -\pi$ e a integral assumirá	
+	\begin{eqnarray}
+		W&=&\int\limits_{0}^{-\pi}\,dt\\
+		t\,\bigg|_{0}^{-\pi}&=&-\pi\\
+	\end{eqnarray}
+	
+	Com base na análise dos valores obtidos para as integrais curvilíneas, vê-se que o trabalho exercido pelas forças de campo é positivo para o arco superior. O resultado é coerente tendo em vista que as linhas do campo vetorial possuem mesma direção e sentido com o deslocamento $dr$. Dessa forma, o produto ponto entre os vetores	
+	\begin{equation}
+		\force\,d\textbf{r}=||\force||\,||d\textbf{r}||\cos\theta
+	\end{equation}
+	
+	com $\theta=0^{\circ}$ ao longo de todo o percurso ocasionará num trabalho positivo. Em contrapartida, ao partir do início mostrado na figura e percorrer a trajetória circular no sentido horário, há contraposição entre o deslocamento e as linhas de campo. Como $\theta=180^{\circ}$, $W<0$.
+	
+	Quando se usa a definição de campos conservativos e funções potenciais vistas no livro, conclui-se que existe $\force=\nabla f$ já que o trabalho ao longo do percurso independe da trajetória no exercício estudado. Entretanto, partindo-se das derivadas parciais $\partial P/\partial y$ e $\partial Q/\partial x$, verifica-se que
+	\begin{equation}
+		\dfrac{\partial P}{\partial y}\neq\dfrac{\partial Q}{\partial x}
+	\end{equation} 
+	então o campo não é conservativo.
 	
 	
 	
