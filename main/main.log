@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  12 AUG 2020 15:55
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  12 AUG 2020 16:27
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -640,18 +640,18 @@ Package luatex.def Info: images/ex4.pdf  used on input line 15.
 <images/ex4_3d1.pdf, id=32, 558.085pt x 509.905pt>
 File: images/ex4_3d1.pdf Graphic file (type pdf)
 <use images/ex4_3d1.pdf>
-Package luatex.def Info: images/ex4_3d1.pdf  used on input line 21.
+Package luatex.def Info: images/ex4_3d1.pdf  used on input line 20.
 (luatex.def)             Requested size: 213.39568pt x 194.9719pt.
 <images/ex4_3d2.pdf, id=33, 596.2275pt x 606.265pt>
 File: images/ex4_3d2.pdf Graphic file (type pdf)
 <use images/ex4_3d2.pdf>
-Package luatex.def Info: images/ex4_3d2.pdf  used on input line 22.
+Package luatex.def Info: images/ex4_3d2.pdf  used on input line 21.
 (luatex.def)             Requested size: 170.71393pt x 173.58289pt.
  [1
 
 {C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./images/ex4.
 pdf><./images/ex4_3d1.pdf><./images/ex4_3d2.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 71
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 60
 .
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmtt.fd"
@@ -660,36 +660,36 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <images/g1.pdf, id=66, 542.025pt x 541.02126pt>
 File: images/g1.pdf Graphic file (type pdf)
 <use images/g1.pdf>
-Package luatex.def Info: images/g1.pdf  used on input line 93.
+Package luatex.def Info: images/g1.pdf  used on input line 75.
 (luatex.def)             Requested size: 298.75264pt x 298.20651pt.
  [2]
 <images/g2.pdf, id=85, 542.025pt x 541.02126pt>
 File: images/g2.pdf Graphic file (type pdf)
 <use images/g2.pdf>
-Package luatex.def Info: images/g2.pdf  used on input line 139.
+Package luatex.def Info: images/g2.pdf  used on input line 113.
 (luatex.def)             Requested size: 298.75264pt x 298.20651pt.
  [3<./images/g1.pdf>]
-<images/g3.pdf, id=107, 542.025pt x 541.02126pt>
+<images/g3.pdf, id=108, 542.025pt x 541.02126pt>
 File: images/g3.pdf Graphic file (type pdf)
 <use images/g3.pdf>
-Package luatex.def Info: images/g3.pdf  used on input line 173.
+Package luatex.def Info: images/g3.pdf  used on input line 142.
 (luatex.def)             Requested size: 298.75264pt x 298.20651pt.
 [4<./images/g2.pdf>] [5<./images/g3.pdf>]
 <images/g15.pdf, id=151, 542.025pt x 541.02126pt>
 File: images/g15.pdf Graphic file (type pdf)
 <use images/g15.pdf>
-Package luatex.def Info: images/g15.pdf  used on input line 220.
+Package luatex.def Info: images/g15.pdf  used on input line 178.
 (luatex.def)             Requested size: 298.75264pt x 298.20651pt.
 <images/g153d1.pdf, id=152, 527.9725pt x 618.31pt>
 File: images/g153d1.pdf Graphic file (type pdf)
 <use images/g153d1.pdf>
-Package luatex.def Info: images/g153d1.pdf  used on input line 228.
+Package luatex.def Info: images/g153d1.pdf  used on input line 185.
 (luatex.def)             Requested size: 256.07741pt x 299.88942pt.
  [6<./images/g15.pdf>]
 <images/g153d2.pdf, id=171, 527.9725pt x 618.31pt>
 File: images/g153d2.pdf Graphic file (type pdf)
 <use images/g153d2.pdf>
-Package luatex.def Info: images/g153d2.pdf  used on input line 234.
+Package luatex.def Info: images/g153d2.pdf  used on input line 191.
 (luatex.def)             Requested size: 256.07741pt x 299.88942pt.
  [7
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.1'
@@ -699,19 +699,19 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.2'
 <images/g26.pdf, id=186, 542.025pt x 527.9725pt>
 File: images/g26.pdf Graphic file (type pdf)
 <use images/g26.pdf>
-Package luatex.def Info: images/g26.pdf  used on input line 257.
+Package luatex.def Info: images/g26.pdf  used on input line 211.
 (luatex.def)             Requested size: 298.75264pt x 291.01414pt.
  [8<./images/g26.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9E62A97FADC4AF5729826AA37DEFD1E2;984.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -720,10 +720,10 @@ Here is how much of LuaTeX's memory you used:
  726 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 74 attribute, 53 gl
 ue_spec, 39 attribute_list, 1 write nodes
-   avail lists: 1:1,2:749,3:104,4:28,5:190,6:21,7:1609,8:49,9:303,10:7,11:131
+   avail lists: 1:1,2:755,3:100,4:28,5:190,6:17,7:1606,8:49,9:292,10:8,11:131
  31013 multiletter control sequences out of 65536+200000
  57 fonts using 5529003 bytes
- 42i,16n,41p,720b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,41p,720b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
@@ -738,7 +738,7 @@ nts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 2773585 bytes).
+Output written on main.pdf (9 pages, 2773805 bytes).
 
 PDF statistics: 268 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 131072)
